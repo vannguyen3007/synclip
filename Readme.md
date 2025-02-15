@@ -25,7 +25,33 @@ Make sure to install the following Python dependencies:
 - `tensorflow`: For building and training the deep learning model
 
 To install these dependencies, you can use the `requirements.txt` file:
-
+## How to Run the Code
 ```bash
 pip install -r requirements.txt
+
+Use gdown to download the pre-trained models and dataset.
+
+First, make sure gdown is installed:
+pip install gdown
+gdown <link_to_the_data_or_model>
+
+
+3. Run the Notebooks
+We provide two Jupyter/Colab notebooks:
+
+notebook1_generate_audio.ipynb: This notebook generates audio from a given text paragraph in Vietnamese using a reference voice.
+
+notebook2_generate_lipsync_video.ipynb: This notebook takes a video/image and replaces the audio with the audio generated from the first notebook, ensuring the mouth movements are synchronized with the new audio.
+
+You can run these notebooks in either a local Jupyter environment or in Google Colab. If you're using Google Colab, simply upload the notebook and required files.
+
+4. Test and Evaluate the Model
+Once the notebooks are executed, you can test and evaluate the model by providing your own video/image as input. The model will then generate a lip-synced video with the provided audio.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
+
 
