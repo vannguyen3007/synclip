@@ -31,8 +31,9 @@ pip install -r requirements.txt
 Use gdown to download the pre-trained models and dataset.
 
 First, make sure gdown is installed:
+``bash 
 pip install gdown
-gdown <link_to_the_data_or_model>
+
 
 * Run the Notebooks
 Run Jupyter Notebooks:
@@ -41,7 +42,7 @@ LipNet.ipynb: This notebook generates audio & video
 
 * Test and Evaluate the Model
 Once the notebooks are executed, you can test and evaluate the model by providing your own video/image as input. The model will then generate a lip-synced video with the provided audio.
-
+``bash
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
