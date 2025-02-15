@@ -8,8 +8,7 @@ LipSync-Video-Generation/ ├── data/ # Contains the dataset files (extracte
 - **`data/`**: This folder contains the dataset files which are extracted and ready for processing.
 - **`models/`**: This folder stores pre-trained model checkpoints used for lip-sync generation.
 - **`notebooks/`**: Contains the Jupyter or Colab notebooks that run the code for audio and video generation.
-    - **`generate_audio.ipynb`**: Generates audio for the given text.
-    - **`generate_lipsync_video.ipynb`**: Generates a video with lip-sync based on the audio.
+    - **`LipNet.ipynb: This notebook generates audio & video
 - **`requirements.txt`**: Lists the Python package dependencies required to run the project.
 - **`README.md`**: This file containing instructions for the project.
 - **`LICENSE`**: License information for the project.
@@ -35,17 +34,12 @@ First, make sure gdown is installed:
 pip install gdown
 gdown <link_to_the_data_or_model>
 
+* Run the Notebooks
+Run Jupyter Notebooks:
 
-3. Run the Notebooks
-We provide two Jupyter/Colab notebooks:
+LipNet.ipynb: This notebook generates audio & video
 
-notebook1_generate_audio.ipynb: This notebook generates audio from a given text paragraph in Vietnamese using a reference voice.
-
-notebook2_generate_lipsync_video.ipynb: This notebook takes a video/image and replaces the audio with the audio generated from the first notebook, ensuring the mouth movements are synchronized with the new audio.
-
-You can run these notebooks in either a local Jupyter environment or in Google Colab. If you're using Google Colab, simply upload the notebook and required files.
-
-4. Test and Evaluate the Model
+* Test and Evaluate the Model
 Once the notebooks are executed, you can test and evaluate the model by providing your own video/image as input. The model will then generate a lip-synced video with the provided audio.
 
 License
