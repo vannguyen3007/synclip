@@ -29,6 +29,11 @@ Make sure to install the following Python dependencies:
 To install these dependencies, you can use the `requirements.txt` file:
 
 ```bash
+pip install -r requirements.txt
+2. Download the Required Models and Data
+Use gdown to download the pre-trained models and dataset.
+
+First, make sure gdown is installed:
 
 
 
