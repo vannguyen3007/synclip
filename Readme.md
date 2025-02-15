@@ -25,9 +25,9 @@ Make sure to install the following Python dependencies:
 - `tensorflow`: For building and training the deep learning model
 
 To install these dependencies, you can use the `requirements.txt` file:
-## How to Run the Code
-```bash
+``bash
 pip install -r requirements.txt
+## How to Run the Code
 
 Use gdown to download the pre-trained models and dataset.
 
